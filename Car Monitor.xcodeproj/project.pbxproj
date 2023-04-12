@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0C8E3ED29E602D7007AD247 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A0C8E3EC29E602D7007AD247 /* main.c */; };
+		A0C8E3F529E603BB007AD247 /* engine.c in Sources */ = {isa = PBXBuildFile; fileRef = A0C8E3F429E603BB007AD247 /* engine.c */; };
+		A0C8E3F829E6043E007AD247 /* dashboard.c in Sources */ = {isa = PBXBuildFile; fileRef = A0C8E3F729E6043E007AD247 /* dashboard.c */; };
+		A0C8E3FB29E60496007AD247 /* communication.c in Sources */ = {isa = PBXBuildFile; fileRef = A0C8E3FA29E60496007AD247 /* communication.c */; };
+		A0C8E3FF29E605E4007AD247 /* pid.c in Sources */ = {isa = PBXBuildFile; fileRef = A0C8E3FE29E605E4007AD247 /* pid.c */; };
+		A0C8E40529E6090F007AD247 /* can.c in Sources */ = {isa = PBXBuildFile; fileRef = A0C8E40429E6090F007AD247 /* can.c */; };
+		A0C8E40829E60984007AD247 /* ethernet.c in Sources */ = {isa = PBXBuildFile; fileRef = A0C8E40729E60984007AD247 /* ethernet.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0C8E3E729E602D7007AD247 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A0C8E3E929E602D7007AD247 /* Car Monitor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Car Monitor"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C8E3EC29E602D7007AD247 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A0C8E3F329E60362007AD247 /* engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		A0C8E3F429E603BB007AD247 /* engine.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = engine.c; sourceTree = "<group>"; };
+		A0C8E3F629E6040B007AD247 /* dashboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dashboard.h; sourceTree = "<group>"; };
+		A0C8E3F729E6043E007AD247 /* dashboard.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dashboard.c; sourceTree = "<group>"; };
+		A0C8E3F929E6046B007AD247 /* communication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = communication.h; sourceTree = "<group>"; };
+		A0C8E3FA29E60496007AD247 /* communication.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = communication.c; sourceTree = "<group>"; };
+		A0C8E3FC29E605A3007AD247 /*  pid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = " pid.h"; sourceTree = "<group>"; };
+		A0C8E3FE29E605E4007AD247 /* pid.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pid.c; sourceTree = "<group>"; };
+		A0C8E40029E6065C007AD247 /* lcd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lcd.h; sourceTree = "<group>"; };
+		A0C8E40329E608D7007AD247 /* can.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = can.h; sourceTree = "<group>"; };
+		A0C8E40429E6090F007AD247 /* can.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = can.c; sourceTree = "<group>"; };
+		A0C8E40629E60959007AD247 /* ethernet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ethernet.h; sourceTree = "<group>"; };
+		A0C8E40729E60984007AD247 /* ethernet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ethernet.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0C8E3E629E602D7007AD247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0C8E3E029E602D7007AD247 = {
+			isa = PBXGroup;
+			children = (
+				A0C8E3EB29E602D7007AD247 /* Car Monitor */,
+				A0C8E3EA29E602D7007AD247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0C8E3EA29E602D7007AD247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0C8E3E929E602D7007AD247 /* Car Monitor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0C8E3EB29E602D7007AD247 /* Car Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				A0C8E3EC29E602D7007AD247 /* main.c */,
+				A0C8E3F329E60362007AD247 /* engine.h */,
+				A0C8E3F429E603BB007AD247 /* engine.c */,
+				A0C8E3F629E6040B007AD247 /* dashboard.h */,
+				A0C8E3F729E6043E007AD247 /* dashboard.c */,
+				A0C8E3F929E6046B007AD247 /* communication.h */,
+				A0C8E3FA29E60496007AD247 /* communication.c */,
+				A0C8E3FC29E605A3007AD247 /*  pid.h */,
+				A0C8E3FE29E605E4007AD247 /* pid.c */,
+				A0C8E40029E6065C007AD247 /* lcd.h */,
+				A0C8E40329E608D7007AD247 /* can.h */,
+				A0C8E40429E6090F007AD247 /* can.c */,
+				A0C8E40629E60959007AD247 /* ethernet.h */,
+				A0C8E40729E60984007AD247 /* ethernet.c */,
+			);
+			path = "Car Monitor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0C8E3E829E602D7007AD247 /* Car Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C8E3F029E602D7007AD247 /* Build configuration list for PBXNativeTarget "Car Monitor" */;
+			buildPhases = (
+				A0C8E3E529E602D7007AD247 /* Sources */,
+				A0C8E3E629E602D7007AD247 /* Frameworks */,
+				A0C8E3E729E602D7007AD247 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Car Monitor";
+			productName = "Car Monitor";
+			productReference = A0C8E3E929E602D7007AD247 /* Car Monitor */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0C8E3E129E602D7007AD247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A0C8E3E829E602D7007AD247 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A0C8E3E429E602D7007AD247 /* Build configuration list for PBXProject "Car Monitor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0C8E3E029E602D7007AD247;
+			productRefGroup = A0C8E3EA29E602D7007AD247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0C8E3E829E602D7007AD247 /* Car Monitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0C8E3E529E602D7007AD247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C8E40529E6090F007AD247 /* can.c in Sources */,
+				A0C8E3ED29E602D7007AD247 /* main.c in Sources */,
+				A0C8E3F829E6043E007AD247 /* dashboard.c in Sources */,
+				A0C8E3FB29E60496007AD247 /* communication.c in Sources */,
+				A0C8E3F529E603BB007AD247 /* engine.c in Sources */,
+				A0C8E40829E60984007AD247 /* ethernet.c in Sources */,
+				A0C8E3FF29E605E4007AD247 /* pid.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A0C8E3EE29E602D7007AD247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0C8E3EF29E602D7007AD247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A0C8E3F129E602D7007AD247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0C8E3F229E602D7007AD247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0C8E3E429E602D7007AD247 /* Build configuration list for PBXProject "Car Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C8E3EE29E602D7007AD247 /* Debug */,
+				A0C8E3EF29E602D7007AD247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C8E3F029E602D7007AD247 /* Build configuration list for PBXNativeTarget "Car Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C8E3F129E602D7007AD247 /* Debug */,
+				A0C8E3F229E602D7007AD247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0C8E3E129E602D7007AD247 /* Project object */;
+}
